@@ -1,0 +1,286 @@
+@media only screen and (max-width:1024px) {
+
+    p {
+        font-size: 2vw !important;
+    }
+
+    .btn {
+        padding: 10px 20px !important;
+    }
+
+    /* scroll */
+
+    .scroll {
+        bottom: 3%;
+        right: 5%;
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .stop {
+        height: 7vw;
+        width: 7vw;
+    }
+
+    .stop i {
+        font-size: 4vw;
+    }
+
+    /* navbar */
+
+    .navbar {
+        height: 7vh !important;
+        top: 0 !important;
+        z-index: 222222 !important;
+        width: 100%;
+    }
+
+    .nav-link:focus::before {
+        width: 0%;
+    }
+
+    .dropdown-menu2 {
+        height: 750px;
+        width: 100%;
+        position: static !important;
+        transform: translateX(0%);
+    }
+
+    .dropdown-menu2 ul {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+
+    .dropdown-menu2 ul li {
+        padding: 20px !important;
+        width: 100%;
+    }
+
+    .nav-img img {
+        width: 280px;
+    }
+
+    .dropdown-menu3 {
+        padding: 20px !important;
+        height: 750px;
+        width: 100%;
+        overflow: auto;
+        transform: translateX(0%);
+    }
+
+    .dropdown-menu3 ul {
+        padding: 10px 0px !important;
+        width: 100% !important;
+        border-bottom: 1px solid black;
+    }
+
+    .dropdown-menu3 ul img {
+        width: 100% !important;
+    }
+
+
+    /* content header */
+
+    #carouselExampleIndicators {
+        height: 50vh !important;
+    }
+
+    .carousel-inner {
+        height: 100% !important;
+    }
+
+    .carousel-item {
+        height: 100% !important;
+    }
+
+    .carousel-item .row {
+        top: 50% !important;
+    }
+
+    .carousel-item::before {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+
+    /* content third */
+
+
+    .third-icons {
+        height: 40px;
+        width: 40px;
+        font-size: 2.5vw;
+    }
+
+
+    /* content four */
+
+
+    .content-four-box:hover .content-four-text {
+        top: 50%;
+        transition: .5s ease-in-out;
+    }
+
+
+    /* content five */
+
+    .five-box-img {
+        height: 50vh;
+    }
+
+    .five-qty-1 {
+        width: 25%;
+        font-size: 3vw;
+    }
+
+    .five-qty-2 {
+        width: 70%;
+    }
+
+    /* content footer */
+
+
+    .footer-icons i {
+        font-size: 2.5vw !important;
+    }
+
+    .input-arrow {
+        font-size: 2vw;
+    }
+
+    hr {
+        bottom: 10% !important;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+
+
+    p {
+        font-size: 3vw !important;
+    }
+
+    /* scroll */
+
+    .scroll {
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .stop {
+        height: 9vw;
+        width: 9vw;
+    }
+
+    .stop i {
+        font-size: 5vw;
+    }
+
+    /* conetnt header */
+
+
+    .content-header h1 {
+        font-size: 8vw !important;
+    }
+
+
+    /* content third */
+
+
+    .third-icons {
+        height: 40px;
+        width: 40px;
+        font-size: 5vw;
+    }
+
+
+    /* content four */
+
+
+    .content-four-box:hover .content-four-text {
+        top: 25%;
+        transition: .5s ease-in-out;
+    }
+
+
+    /* content five */
+
+    .five-box-img-po {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: end;
+        justify-content: space-evenly;
+    }
+
+    .five-box {
+        height: 70px;
+        width: 70px;
+    }
+
+    .five-qty-1 {
+        font-size: 4vw;
+        width: 35%;
+    }
+
+    .five-qty-2 {
+        width: 60%;
+    }
+
+    /* content footer */
+
+
+    .footer-icons i {
+        font-size: 5vw !important;
+    }
+
+    .input-arrow {
+        font-size: 4vw;
+    }
+
+    .content-footer p {
+        font-size: 3.5vw !important;
+    }
+
+}
+
+@media only screen and (max-width:429px) {
+
+
+    .btn {
+        padding: 5px 10px !important;
+        font-size: 3vw !important;
+    }
+
+    /* navbar */
+
+    .navbar {
+        height: 10vh !important;
+        top: 0 !important;
+        z-index: 222222 !important;
+        width: 100%;
+    }
+
+    .dropdown-menu2 {
+        height: 400px !important;
+    }
+
+    .dropdown-menu3 {
+        height: 400px !important;
+    }
+
+    .nav-img img {
+        width: 230px;
+    }
+
+    /* content header */
+
+
+    /* content five */
+
+    .five-box {
+        height: 55px;
+        width: 55px;
+    }
+}
